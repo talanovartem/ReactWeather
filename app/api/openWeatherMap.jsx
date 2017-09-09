@@ -10,7 +10,7 @@ module.exports = {
 
 		return axios.get(requestUrl).then(function (res) {
 
-			if (res.data.cod && res.data.message) {
+			if (res.data.cod && res.data.message && response.data.name.toLowerCase() !== location.toLowerCase()) {
 				throw new Error(res.data.message);
 			}else {
 				return res.data.main.temp;
