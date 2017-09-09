@@ -4,13 +4,19 @@ var React = require('react');
 var About = (props) => {
 	return (
 		<div>
-		<h3>About Component</h3>
-		<p>1</p>
-		<p>2</p>
-		<p>3</p>
-		<p>4</p>
-		<p>5</p>
-		<p>6</p>
+		<h1 className="text-center">About Component</h1>
+		<p>This is React app</p>
+		<p>Here are some of the tools I used:</p>
+		<ul>
+		<li>
+		<a href="https://facebook.github.io/react">React</a> - This was the JS framework used
+		</li>
+
+		<li>
+		<a href="http://openweathermap.org">Open Weather Map</a> - I used Open Weather Map to search for weather by city name.
+		</li>
+
+		</ul>
 
 		</div>
 		)
