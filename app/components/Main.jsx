@@ -12,7 +12,7 @@ var Main = (props) => {
 
 
         </div>
-        <h2>Main Component</h2>
+        
         
       </div>
       )
